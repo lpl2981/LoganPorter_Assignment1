@@ -2,9 +2,11 @@ prime = 2;
 pCount = 1;
 var primeChecker = function(x) {
     if (x < 2)
-        return false;
-    for (var count = 0; count < prime; count++)
+        return "Not a Prime";
+    for (var count = 0; count < prime; count++) {
         if (count % x === 0)
             return x;
+    }
+        return "Not a Prime";
 };
-console.log(primeChecker(5));
+console.log(primeChecker(6));
