@@ -3,7 +3,6 @@ pCount = 1;
 var primeChecker = function(x) {
     if (x < 2)
         return false;
-    var result = 1;
     for (var count = 0; count < prime; count++)
         if (count % x === 0)
             return x;
