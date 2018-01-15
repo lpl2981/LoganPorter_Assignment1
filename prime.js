@@ -5,7 +5,7 @@ var primeChecker = function(x) {
         return false;
     var result = 1;
     for (var count = 0; count < prime; count++)
-        if (result % x === 0)
-            return result;
+        if (count % x === 0)
+            return x;
 };
 console.log(primeChecker(5));
