@@ -6,7 +6,7 @@ var primeChecker = function(x) {
     for (var count = 0; count < prime; count++) {
         if (count % x === 0)
             return x;
+        else return "Not a Prime";
     }
-        return "Not a Prime";
 };
 console.log(primeChecker(6));
