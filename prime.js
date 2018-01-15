@@ -8,3 +8,4 @@ var primeChecker = function(x) {
         if (result % x === 0)
             return result;
 };
+console.log(primeChecker(5));
