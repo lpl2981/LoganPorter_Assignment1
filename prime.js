@@ -8,4 +8,8 @@ var primeChecker = function(x) {
     }
     return x;
 };
-console.log(primeChecker(4));
+console.log(primeChecker(5));
+for (pCount = 0; pCount = 1000; pCount++);
+    if (primeChecker(pCount++) !== "Not a Prime")
+        var prime = true;
+
